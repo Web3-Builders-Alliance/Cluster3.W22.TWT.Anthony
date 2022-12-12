@@ -36,4 +36,4 @@ pub const DEPOSITS: Map<(&str, &str), Deposits> = Map::new("deposits");
 pub const CW20_DEPOSITS: Map<(&str, &str), Cw20Deposits> = Map::new("cw20deposits");
 
 // contract , owner, token_id
-pub const CW721_DEPOSITS: Map<(&str, &str,&str), Cw721Deposits> = Map::new("cw20deposits");
+pub const CW721_DEPOSITS: Map<(&str, &str,&str), Cw721Deposits> = Map::new("cw721deposits");
